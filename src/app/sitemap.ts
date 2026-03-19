@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://policyforge.vercel.app';
+  const baseUrl = 'https://policyforge-blond.vercel.app';
   const now = new Date();
 
   return [

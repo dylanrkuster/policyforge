@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://policyforge.vercel.app/sitemap.xml',
+    sitemap: 'https://policyforge-blond.vercel.app/sitemap.xml',
   };
 }

@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://policyforge.vercel.app"),
+  metadataBase: new URL("https://policyforge-blond.vercel.app"),
   title: {
     default: "PolicyForge — Free Privacy Policy & Terms of Service Generator",
     template: "%s | PolicyForge",
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://policyforge.vercel.app",
+    url: "https://policyforge-blond.vercel.app",
     siteName: "PolicyForge",
     title: "PolicyForge — Free Privacy Policy & Terms of Service Generator",
     description:
       "Generate professional, compliant privacy policies and terms of service in minutes. Free, no signup required.",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://snapog-teal.vercel.app/api/og?title=PolicyForge&description=Free+Privacy+Policy+%26+Terms+of+Service+Generator&theme=dark&template=product&siteName=policyforge&accent=%238b5cf6",
         width: 1200,
         height: 630,
         alt: "PolicyForge — Privacy Policy Generator",
@@ -72,7 +72,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebApplication",
               name: "PolicyForge",
-              url: "https://policyforge.vercel.app",
+              url: "https://policyforge-blond.vercel.app",
               description:
                 "Free privacy policy and terms of service generator. GDPR, CCPA, COPPA compliant.",
               applicationCategory: "BusinessApplication",
