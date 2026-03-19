@@ -9,6 +9,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'ccpa-compliance-guide',
+    title: 'CCPA Compliance Guide: What Every Website Owner Needs to Know',
+    excerpt: 'Complete guide to CCPA/CPRA compliance. Learn thresholds, consumer rights, privacy policy requirements, penalties, and an interactive compliance checklist.',
+    date: 'March 19, 2026',
+    readTime: '10 min read',
+    tags: ['CCPA', 'CPRA', 'Compliance', 'Privacy'],
+  },
+  {
     slug: 'privacy-policy-guide-2026',
     title: 'Complete Privacy Policy Guide for 2026',
     excerpt: 'Everything you need to know about creating a comprehensive privacy policy in 2026. Covers all major regulations, best practices, and common mistakes to avoid.',
