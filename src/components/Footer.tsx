@@ -91,6 +91,9 @@ export default function Footer() {
             <a href="https://snapog-teal.vercel.app" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.85rem' }}>
               SnapOG — OG Image Generator
             </a>
+            <a href="https://invoiceforge-cyan.vercel.app" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.85rem' }}>
+              InvoiceForge — Invoice Generator
+            </a>
           </div>
         </div>
       </div>
